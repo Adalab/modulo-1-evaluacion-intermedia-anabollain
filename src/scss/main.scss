@@ -8,7 +8,7 @@
     --background-color: #3CDBC0;
     --menu-text-color: #4a4a4a;
     --main-title-color: #FFFFFF;
-    --main-font: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 html{
@@ -39,15 +39,15 @@ html{
 .nav-menu{
     list-style: none;
     display: flex;
-    gap: 2rem;
+    text-transform: uppercase;
 }
 
 .link{
     color: var(--menu-text-color);
-    font-family: var(--main-font);
     font-size: 1.6rem;
     font-weight: 400;
     text-decoration: none;
+    padding: 1rem;
 }
 
 /* MAIN */
@@ -63,11 +63,12 @@ html{
 
 .main-title{
     color: var(--main-title-color);
-    font-family: var(--main-font);
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.5rem;
+    text-transform: capitalize;
     text-align: center;
+    word-spacing: 100vw;
 }
 
 .main-title-br{
